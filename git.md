@@ -26,3 +26,16 @@ git 操作步骤：
 3. git add 文件名
    -- git add . :把所有的文件(抛去删除的)从暂存区提交到历史区
    -- git add A :（包含删除的）
+
+4. git commit -m"注释的内容"：把暂存区的内容提交到历史区
+
+5. git log / git reflog：打印历史版本
+
+6.git rm --cached 文件名 ： 删除暂存区的内容
+
+git 远程仓库的配置：
+ + git config --global --list:查看全局配置信息
+ + git config --global user.name'github登录的姓名'
+ + git config --global user.email 'github登录的邮箱'
+
+ 
